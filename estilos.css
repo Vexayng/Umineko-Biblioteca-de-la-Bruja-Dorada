@@ -76,7 +76,7 @@ body {
   line-height: 1.5;
   color: #ffffff;
   text-align: left;
-  background: linear-gradient(rgba(39, 36, 35, 0.267), rgba(33, 40, 28, 0.5)), url(/img/bg/Fondo.png), no-repeat center center;
+  background: linear-gradient(rgba(39, 36, 35, 0.267), rgba(33, 40, 28, 0.5)), url(img/bg/Fondo.png), no-repeat center center;
   background-size: cover;
   background-color: #000000;
   background-attachment: fixed;
