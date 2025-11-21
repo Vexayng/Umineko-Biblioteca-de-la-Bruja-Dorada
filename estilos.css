@@ -313,6 +313,77 @@ body {
 	width: 100%;
 }
 
+@media (max-width: 625px) {
+    .RondoChiru{
+   width: 90%;
+   max-width: 1200px;
+   margin: 40px auto;
+   display: block;
+   padding-right: 500px;
+    }
+}
+
+@media (max-width: 625px) {
+    .contenedor{
+   width: 90%;
+   margin: 40px auto;
+   display: block;
+    }
+}
+
+@media (max-width: 625px) {
+  .Descripcion h3{
+    font-size: 30px;
+  }
+  
+  .Descripcion h6{
+    font-size: 20px;
+    margin: 20px 10px 60px;
+  }
+
+  .Descripcion .text-italic{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 20px 10px 60px;
+  }
+
+  .Descripcion .text-bold{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 20px 10px 60px;
+  }
+}
+
+@media (max-width: 625px) {
+  .slider-frame {
+  position:static;
+	width: 600px;
+  height: 463;
+	margin:40px -60px -60px;
+	overflow: hidden;
+  }
+
+  .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: slide 20s infinite alternate ease-in-out;
+  }
+
+  .slider-frame li {
+    width: 100%;
+    list-style: none;
+  }
+
+  .slider-frame img {
+    width: 100%;
+  }
+}
+
 @keyframes slide {
 	0% {margin-left: 0;}
 	20% {margin-left: 0;}
