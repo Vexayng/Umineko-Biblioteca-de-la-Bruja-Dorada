@@ -2,20 +2,20 @@
     <h3><span class="text-red">Con</span>táctanos</h3>
     <div class="container text-center py-3 mb-3 bg-dark border-radius-15">
          <p class=" text-left">Si tienes alguna pregunta, puedes contactarnos por medio de este formulario:</p>
-        <form>
+        <form id="formulario" name="formulario" method="post" action="#" onsubmit="return false">
             <div class="mb-3 text-left">
-                <label for="name" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="name" placeholder="Escribe tu nombre.">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" maxlength="50" placeholder="Escribe tu nombre." oninput="validar('nombre')" required pattern="({3,50})">
             </div>
             <div class="mb-3 text-left">
-                <label for="email" class="form-label">Correo</label>
-                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="correo" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com" oninput="validar('correo')" required>
             </div>
             <div class="mb-3 text-left">
-                <label for="message" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="message" rows="3" placeholder="Escribe tu mensaje."></textarea>
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje." oninput="validar('mensaje')" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" class="btn btn-primary" onclick="enviarValidar()">Enviar</button>
         </form>
 
     </div>
