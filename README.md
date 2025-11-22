@@ -1,4 +1,4 @@
 # Umineko-Biblioteca-de-la-Bruja-Dorada
 
-## Programación Multimedia - Evaluación 1
+## Programación Multimedia
 Estudiante: Vexayng Verenzuela
