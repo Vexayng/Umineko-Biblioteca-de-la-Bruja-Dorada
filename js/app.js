@@ -11,7 +11,9 @@
             new Route('proxima', 'proximamente.html'),
             new Route('EP1', 'EP1_menu.html'),
             new Route('EP2', 'EP2_menu.html'),
+            new Route('EP3', 'EP3_menu.html'),
             new Route('EP2Roja', 'EP2_roja.html'),
+            new Route('EP3Roja', 'EP3_roja.html'),
 
         ]);
     }

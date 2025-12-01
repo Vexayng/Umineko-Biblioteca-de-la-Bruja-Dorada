@@ -294,6 +294,7 @@ body {
   height: 463;
 	margin:40px -80px 0;
 	overflow: hidden;
+  
 }
 
 .slider-frame ul {
@@ -302,16 +303,42 @@ body {
 	width: 400%;
 	
 	animation: slide 20s infinite alternate ease-in-out;
+
 }
 
 .slider-frame li {
 	width: 100%;
 	list-style: none;
+  
 }
 
 .slider-frame img {
 	width: 100%;
 }
+
+.sliderNav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+.sliderNav a{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.75;
+    transition: all ease-in-out 0.7s;
+}
+.sliderNav a:hover{
+    opacity: 1;
+    box-shadow: 0 0 10px white;
+    transform: scale(1.5);
+}
+
 
 @media (max-width: 625px) {
     .RondoChiru{
