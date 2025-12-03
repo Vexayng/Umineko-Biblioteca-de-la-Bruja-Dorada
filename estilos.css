@@ -340,7 +340,7 @@ body {
 }
 
 
-@media (max-width: 625px) {
+@media (max-width: 768px) {
     .RondoChiru{
    width: 90%;
    max-width: 1200px;
@@ -350,7 +350,7 @@ body {
     }
 }
 
-@media (max-width: 625px) {
+@media (max-width: 768px) {
     .contenedor{
    width: 90%;
    margin: 40px auto;
@@ -358,7 +358,7 @@ body {
     }
 }
 
-@media (max-width: 625px) {
+@media (max-width: 768px) {
   .Descripcion h3{
     font-size: 30px;
   }
@@ -384,7 +384,7 @@ body {
   }
 }
 
-@media (max-width: 625px) {
+@media (max-width: 768px) {
   .slider-frame {
   position:static;
 	width: 600px;
