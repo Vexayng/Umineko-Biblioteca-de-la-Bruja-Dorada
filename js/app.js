@@ -14,6 +14,7 @@
             new Route('EP3', 'EP3_menu.html'),
             new Route('EP2Roja', 'EP2_roja.html'),
             new Route('EP3Roja', 'EP3_roja.html'),
+            new Route('EP1Videos', 'EP1_videos.html'),
 
         ]);
     }
