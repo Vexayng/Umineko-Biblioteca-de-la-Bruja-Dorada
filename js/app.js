@@ -12,9 +12,14 @@
             new Route('EP1', 'EP1_menu.html'),
             new Route('EP2', 'EP2_menu.html'),
             new Route('EP3', 'EP3_menu.html'),
+            new Route('EP4', 'EP4_menu.html'),
             new Route('EP2Roja', 'EP2_roja.html'),
             new Route('EP3Roja', 'EP3_roja.html'),
+            new Route('EP4Roja', 'EP4_roja.html'),
             new Route('EP1Videos', 'EP1_videos.html'),
+            new Route('EP2Videos', 'EP2_videos.html'),
+            new Route('EP3Videos', 'EP3_videos.html'),
+            new Route('EP4Videos', 'EP4_videos.html'),
 
         ]);
     }

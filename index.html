@@ -21,13 +21,22 @@
   <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
   <script type="text/javascript" src="js/validar.js"></script>
+  <script src="js/animacion.js"></script>
   <script src="js/reproductor.js"></script>
+
 
 </head>
 
 <body>
-   
-   <!-- Header Start -->
+
+    <div class="page-loader">
+        <div class="spinner"></div>
+        <img src="/img/icons/Beatrice.gif" alt="cargando" class="loader-gif">
+    </div>
+
+    <main>
+
+        <!-- Header Start -->
     <header class="container-fluid p-0 ">
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5 ">
@@ -60,7 +69,7 @@
     <!-- Header End --> 
 
     <!-- Content Start --> 
-  
+ 
   <div id="app" class="container">
 
     <!-- Content End --> 
@@ -116,11 +125,13 @@
     </div>  
     <!-- Footer End -->
 
+    </main>
+
+
     <!-- JavaScript Libraries -->
     <script src="js/route.js"></script>
     <script src="js/router.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/reproductor.js"></script>
     
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
