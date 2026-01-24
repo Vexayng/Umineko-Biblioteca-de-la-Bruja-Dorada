@@ -10,10 +10,11 @@ Incluir un bloque de código que utilice try...catch para manejar una situación
 ##  Evaluación Técnica 
 Utilizar las Herramientas de Desarrollo (DevTools) del navegador para inspeccionar su propio proyecto.
 
- Captura de pantalla del tab Console (limpio, sin errores)
+ Captura de pantalla del tab Console (limpio, sin errores)<br>
+
 ![Consola](img/Consola.png)
 
- Tab Performance o Network
+ Tab Performance o Network<br>
 ![Network](img/Network.png)
 
 En la captura Network.png, destaca una oportunidad de optimización relevante:
