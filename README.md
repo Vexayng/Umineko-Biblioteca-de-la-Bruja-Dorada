@@ -27,11 +27,11 @@ Métrica relevante:
 La métrica CLS cuantifica cuánto se “mueven” los elementos de la página de manera inesperada mientras se carga o después de la carga inicial.
 Se expresa como un puntaje decimal, donde:
 
-0.0 = No hay desplazamientos.
-Mayor a 0.0 = Desplazamientos visibles.
-Objetivo ideal: ≤ 0.1
-Necesita mejora: 0.1–0.25
-Pobre: > 0.25
+0.0 = No hay desplazamientos.<br>
+Mayor a 0.0 = Desplazamientos visibles.<br>
+Objetivo ideal: ≤ 0.1<br>
+Necesita mejora: 0.1–0.25<br>
+Pobre: > 0.25<br>
 
 Un CLS de 0.71 (pobre) podría estar relacionado con recursos (como Beatrice.gif, 959 ms) que cargan tarde y desplazan el contenido visual. Priorizar la carga de recursos críticos y asegurar caché eficiente puede ayudar a reducir el CLS.
 
